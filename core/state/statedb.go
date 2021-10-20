@@ -24,13 +24,13 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/metrics"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
-	"github.com/Fantom-foundation/go-ethereum/trie"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/metrics"
+	"github.com/NextExchange/go-ethereum/rlp"
+	"github.com/NextExchange/go-ethereum/trie"
 )
 
 type revision struct {
@@ -583,7 +583,7 @@ func (self *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range self.journal.dirties {
-		// As documented [here](https://github.com/Fantom-foundation/go-ethereum/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/NextExchange/go-ethereum/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

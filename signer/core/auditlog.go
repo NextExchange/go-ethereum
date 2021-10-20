@@ -19,10 +19,10 @@ package core
 import (
 	"context"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
-	"github.com/Fantom-foundation/go-ethereum/internal/ethapi"
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/hexutil"
+	"github.com/NextExchange/go-ethereum/internal/ethapi"
+	"github.com/NextExchange/go-ethereum/log"
 )
 
 type AuditLogger struct {

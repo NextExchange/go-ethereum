@@ -27,16 +27,16 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/internal/debug"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/node"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core"
+	"github.com/NextExchange/go-ethereum/core/rawdb"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/ethdb"
+	"github.com/NextExchange/go-ethereum/internal/debug"
+	"github.com/NextExchange/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/node"
+	"github.com/NextExchange/go-ethereum/rlp"
 )
 
 const (

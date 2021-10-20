@@ -21,7 +21,7 @@ package metrics
 import (
 	"syscall"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

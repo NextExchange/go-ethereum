@@ -22,13 +22,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core"
+	"github.com/NextExchange/go-ethereum/core/rawdb"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/core/vm"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/params"
 )
 
 // testerAccountPool is a pool to maintain currently active tester accounts,
@@ -363,7 +363,7 @@ func TestClique(t *testing.T) {
 			failure: errRecentlySigned,
 		}, {
 			// Recent signatures should not reset on checkpoint blocks imported in a new
-			// batch (https://github.com/Fantom-foundation/go-ethereum/issues/17593). Whilst this
+			// batch (https://github.com/NextExchange/go-ethereum/issues/17593). Whilst this
 			// seems overly specific and weird, it was a Rinkeby consensus split.
 			epoch:   3,
 			signers: []string{"A", "B", "C"},

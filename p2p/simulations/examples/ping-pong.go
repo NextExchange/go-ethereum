@@ -25,13 +25,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/node"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/p2p/simulations"
-	"github.com/Fantom-foundation/go-ethereum/p2p/simulations/adapters"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/NextExchange/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/node"
+	"github.com/NextExchange/go-ethereum/p2p"
+	"github.com/NextExchange/go-ethereum/p2p/enode"
+	"github.com/NextExchange/go-ethereum/p2p/simulations"
+	"github.com/NextExchange/go-ethereum/p2p/simulations/adapters"
+	"github.com/NextExchange/go-ethereum/rpc"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

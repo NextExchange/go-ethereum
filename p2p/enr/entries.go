@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/NextExchange/go-ethereum/rlp"
 )
 
 // Entry is implemented by known node record entry types.

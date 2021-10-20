@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi"
-	"github.com/Fantom-foundation/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/accounts/abi"
+	"github.com/NextExchange/go-ethereum/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

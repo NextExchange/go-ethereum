@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common/bitutil"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/common/bitutil"
+	"github.com/NextExchange/go-ethereum/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

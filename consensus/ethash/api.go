@@ -19,9 +19,9 @@ package ethash
 import (
 	"errors"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/hexutil"
+	"github.com/NextExchange/go-ethereum/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

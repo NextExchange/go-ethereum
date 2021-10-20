@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/rlp"
 )
 
 type ltrInfo struct {

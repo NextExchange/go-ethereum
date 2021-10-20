@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/params"
 )
 
 const (

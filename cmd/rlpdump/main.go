@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/NextExchange/go-ethereum/rlp"
 )
 
 var (

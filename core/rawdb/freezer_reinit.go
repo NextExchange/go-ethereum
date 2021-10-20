@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/prque"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/prque"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/ethdb"
+	"github.com/NextExchange/go-ethereum/log"
 )
 
 // InitDatabaseFromFreezer reinitializes an empty database from a previous batch

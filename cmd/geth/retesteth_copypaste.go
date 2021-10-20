@@ -19,9 +19,9 @@ package main
 import (
 	"math/big"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/hexutil"
+	"github.com/NextExchange/go-ethereum/core/types"
 )
 
 // RPCTransaction represents a transaction that will serialize to the RPC representation of a transaction

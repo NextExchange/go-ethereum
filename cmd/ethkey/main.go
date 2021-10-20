@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Fantom-foundation/go-ethereum/cmd/utils"
+	"github.com/NextExchange/go-ethereum/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

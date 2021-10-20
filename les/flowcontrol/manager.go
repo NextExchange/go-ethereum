@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common/mclock"
-	"github.com/Fantom-foundation/go-ethereum/common/prque"
+	"github.com/NextExchange/go-ethereum/common/mclock"
+	"github.com/NextExchange/go-ethereum/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

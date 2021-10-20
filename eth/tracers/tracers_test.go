@@ -27,17 +27,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
-	"github.com/Fantom-foundation/go-ethereum/common/math"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/params"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
-	"github.com/Fantom-foundation/go-ethereum/tests"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/hexutil"
+	"github.com/NextExchange/go-ethereum/common/math"
+	"github.com/NextExchange/go-ethereum/core"
+	"github.com/NextExchange/go-ethereum/core/rawdb"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/core/vm"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/rlp"
+	"github.com/NextExchange/go-ethereum/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

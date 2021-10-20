@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

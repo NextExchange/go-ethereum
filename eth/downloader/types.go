@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/Fantom-foundation/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

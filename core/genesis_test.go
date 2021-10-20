@@ -22,12 +22,12 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/consensus/ethash"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/consensus/ethash"
+	"github.com/NextExchange/go-ethereum/core/rawdb"
+	"github.com/NextExchange/go-ethereum/core/vm"
+	"github.com/NextExchange/go-ethereum/ethdb"
+	"github.com/NextExchange/go-ethereum/params"
 )
 
 func TestDefaultGenesisBlock(t *testing.T) {

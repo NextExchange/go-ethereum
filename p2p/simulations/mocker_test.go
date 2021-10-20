@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
+	"github.com/NextExchange/go-ethereum/p2p/enode"
 )
 
 func TestMocker(t *testing.T) {

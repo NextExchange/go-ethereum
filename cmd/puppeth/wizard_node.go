@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/keystore"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/accounts/keystore"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

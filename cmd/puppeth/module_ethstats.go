@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

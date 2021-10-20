@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
+	"github.com/NextExchange/go-ethereum/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

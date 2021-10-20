@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/consensus/ethash"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/consensus/ethash"
+	"github.com/NextExchange/go-ethereum/core"
+	"github.com/NextExchange/go-ethereum/core/rawdb"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/params"
 )
 
 var (

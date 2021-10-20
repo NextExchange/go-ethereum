@@ -29,11 +29,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Fantom-foundation/go-ethereum/event"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/p2p/simulations/adapters"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/NextExchange/go-ethereum/event"
+	"github.com/NextExchange/go-ethereum/p2p"
+	"github.com/NextExchange/go-ethereum/p2p/enode"
+	"github.com/NextExchange/go-ethereum/p2p/simulations/adapters"
+	"github.com/NextExchange/go-ethereum/rpc"
 	"github.com/julienschmidt/httprouter"
 	"golang.org/x/net/websocket"
 )

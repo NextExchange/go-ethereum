@@ -23,9 +23,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/keystore"
-	"github.com/Fantom-foundation/go-ethereum/cmd/utils"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/accounts/keystore"
+	"github.com/NextExchange/go-ethereum/cmd/utils"
+	"github.com/NextExchange/go-ethereum/crypto"
 	"github.com/pborman/uuid"
 	"gopkg.in/urfave/cli.v1"
 )

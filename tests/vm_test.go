@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
+	"github.com/NextExchange/go-ethereum/core/vm"
 )
 
 func TestVM(t *testing.T) {

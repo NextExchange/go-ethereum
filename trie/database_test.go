@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/ethdb/memorydb"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

@@ -19,8 +19,8 @@
 package whisperv6
 
 import (
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/hexutil"
 )
 
 // TopicType represents a cryptographically secure, probabilistic partial

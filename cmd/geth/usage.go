@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/Fantom-foundation/go-ethereum/cmd/utils"
-	"github.com/Fantom-foundation/go-ethereum/internal/debug"
+	"github.com/NextExchange/go-ethereum/cmd/utils"
+	"github.com/NextExchange/go-ethereum/internal/debug"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

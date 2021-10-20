@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common/math"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
+	"github.com/NextExchange/go-ethereum/common/math"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/p2p/enode"
 )
 
 // node represents a host on the network.

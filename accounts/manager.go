@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/event"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/event"
 )
 
 // Config contains the settings of the global account manager.

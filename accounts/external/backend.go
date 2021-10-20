@@ -21,16 +21,16 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Fantom-foundation/go-ethereum"
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/event"
-	"github.com/Fantom-foundation/go-ethereum/internal/ethapi"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
-	"github.com/Fantom-foundation/go-ethereum/signer/core"
+	"github.com/NextExchange/go-ethereum"
+	"github.com/NextExchange/go-ethereum/accounts"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/hexutil"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/event"
+	"github.com/NextExchange/go-ethereum/internal/ethapi"
+	"github.com/NextExchange/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/rpc"
+	"github.com/NextExchange/go-ethereum/signer/core"
 )
 
 type ExternalBackend struct {

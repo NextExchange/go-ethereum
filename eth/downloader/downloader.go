@@ -25,16 +25,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/event"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/metrics"
-	"github.com/Fantom-foundation/go-ethereum/params"
-	"github.com/Fantom-foundation/go-ethereum/trie"
+	"github.com/NextExchange/go-ethereum"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core/rawdb"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/ethdb"
+	"github.com/NextExchange/go-ethereum/event"
+	"github.com/NextExchange/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/metrics"
+	"github.com/NextExchange/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/trie"
 )
 
 var (

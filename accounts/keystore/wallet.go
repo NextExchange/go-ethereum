@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/Fantom-foundation/go-ethereum"
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
+	ethereum "github.com/NextExchange/go-ethereum"
+	"github.com/NextExchange/go-ethereum/accounts"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

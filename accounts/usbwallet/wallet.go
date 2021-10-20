@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/Fantom-foundation/go-ethereum"
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/log"
+	ethereum "github.com/NextExchange/go-ethereum"
+	"github.com/NextExchange/go-ethereum/accounts"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/log"
 	"github.com/karalabe/usb"
 )
 

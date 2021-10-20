@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/eth/downloader"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
+	"github.com/NextExchange/go-ethereum/eth/downloader"
+	"github.com/NextExchange/go-ethereum/p2p"
+	"github.com/NextExchange/go-ethereum/p2p/enode"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

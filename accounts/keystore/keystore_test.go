@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/event"
+	"github.com/NextExchange/go-ethereum/accounts"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/event"
 )
 
 var testSigData = make([]byte, 32)

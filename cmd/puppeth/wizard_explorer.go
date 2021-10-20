@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

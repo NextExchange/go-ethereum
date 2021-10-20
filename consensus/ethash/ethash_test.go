@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/hexutil"
+	"github.com/NextExchange/go-ethereum/core/types"
 )
 
 // Tests that ethash works correctly in test mode.
@@ -55,7 +55,7 @@ func TestTestMode(t *testing.T) {
 }
 
 // This test checks that cache lru logic doesn't crash under load.
-// It reproduces https://github.com/Fantom-foundation/go-ethereum/issues/14943
+// It reproduces https://github.com/NextExchange/go-ethereum/issues/14943
 func TestCacheFileEvict(t *testing.T) {
 	tmpdir, err := ioutil.TempDir("", "ethash-test")
 	if err != nil {

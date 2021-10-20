@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/Fantom-foundation/go-ethereum/p2p"
+	"github.com/NextExchange/go-ethereum/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

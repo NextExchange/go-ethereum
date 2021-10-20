@@ -38,10 +38,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/math"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/accounts"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/math"
+	"github.com/NextExchange/go-ethereum/crypto"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
@@ -121,7 +121,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://github.com/Fantom-foundation/go-ethereum/issues." +
+				"https://github.com/NextExchange/go-ethereum/issues." +
 				"The error was : %s"
 			return fmt.Errorf(msg, tmpName, err)
 		}

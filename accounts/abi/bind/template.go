@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/Fantom-foundation/go-ethereum/accounts/abi"
+import "github.com/NextExchange/go-ethereum/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -88,12 +88,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/Fantom-foundation/go-ethereum"
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi"
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi/bind"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/event"
+	ethereum "github.com/NextExchange/go-ethereum"
+	"github.com/NextExchange/go-ethereum/accounts/abi"
+	"github.com/NextExchange/go-ethereum/accounts/abi/bind"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

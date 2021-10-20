@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/keystore"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/accounts/keystore"
+	"github.com/NextExchange/go-ethereum/core/types"
 )
 
 // Tests that the account management snippets work correctly.

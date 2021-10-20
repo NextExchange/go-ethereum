@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

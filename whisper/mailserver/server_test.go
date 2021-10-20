@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	whisper "github.com/Fantom-foundation/go-ethereum/whisper/whisperv6"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/crypto"
+	whisper "github.com/NextExchange/go-ethereum/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

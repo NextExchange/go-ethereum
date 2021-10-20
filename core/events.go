@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

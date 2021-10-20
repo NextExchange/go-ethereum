@@ -24,9 +24,9 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/metrics"
-	"github.com/Fantom-foundation/go-ethereum/metrics/exp"
+	"github.com/NextExchange/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/metrics"
+	"github.com/NextExchange/go-ethereum/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
 	colorable "github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"

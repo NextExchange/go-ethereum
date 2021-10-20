@@ -24,12 +24,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/p2p/nat"
-	"github.com/Fantom-foundation/go-ethereum/p2p/netutil"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/p2p/nat"
+	"github.com/NextExchange/go-ethereum/p2p/netutil"
+	"github.com/NextExchange/go-ethereum/rlp"
 )
 
 const Version = 4

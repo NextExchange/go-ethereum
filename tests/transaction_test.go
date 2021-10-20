@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/params"
 )
 
 func TestTransaction(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 

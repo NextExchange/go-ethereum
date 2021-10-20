@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/Fantom-foundation/go-ethereum/eth/tracers/internal/tracers"
+	"github.com/NextExchange/go-ethereum/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

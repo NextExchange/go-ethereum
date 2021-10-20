@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/Fantom-foundation/go-ethereum/cmd/utils"
-	"github.com/Fantom-foundation/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/cmd/utils"
+	"github.com/NextExchange/go-ethereum/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

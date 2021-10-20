@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi/bind"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/light"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/accounts/abi/bind"
+	"github.com/NextExchange/go-ethereum/core"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/light"
+	"github.com/NextExchange/go-ethereum/params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -187,7 +187,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/Fantom-foundation/go-ethereum/issues/20097 for more detail.
+	// See https://github.com/NextExchange/go-ethereum/issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

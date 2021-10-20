@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/Fantom-foundation/go-ethereum/common"
+import "github.com/NextExchange/go-ethereum/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

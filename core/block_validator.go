@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/Fantom-foundation/go-ethereum/consensus"
-	"github.com/Fantom-foundation/go-ethereum/core/state"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/consensus"
+	"github.com/NextExchange/go-ethereum/core/state"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

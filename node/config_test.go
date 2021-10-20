@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

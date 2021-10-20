@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/crypto"
 )
 
 // Ensure the KDF generates appropriately sized keys.

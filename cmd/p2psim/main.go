@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/p2p/simulations"
-	"github.com/Fantom-foundation/go-ethereum/p2p/simulations/adapters"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/NextExchange/go-ethereum/crypto"
+	"github.com/NextExchange/go-ethereum/p2p"
+	"github.com/NextExchange/go-ethereum/p2p/enode"
+	"github.com/NextExchange/go-ethereum/p2p/simulations"
+	"github.com/NextExchange/go-ethereum/p2p/simulations/adapters"
+	"github.com/NextExchange/go-ethereum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/math"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/accounts/keystore"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/eth"
-	"github.com/Fantom-foundation/go-ethereum/eth/downloader"
-	"github.com/Fantom-foundation/go-ethereum/ethclient"
-	"github.com/Fantom-foundation/go-ethereum/ethstats"
-	"github.com/Fantom-foundation/go-ethereum/les"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/node"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/discv5"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/p2p/nat"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/accounts"
+	"github.com/NextExchange/go-ethereum/accounts/keystore"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/eth"
+	"github.com/NextExchange/go-ethereum/eth/downloader"
+	"github.com/NextExchange/go-ethereum/ethclient"
+	"github.com/NextExchange/go-ethereum/ethstats"
+	"github.com/NextExchange/go-ethereum/les"
+	"github.com/NextExchange/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/node"
+	"github.com/NextExchange/go-ethereum/p2p"
+	"github.com/NextExchange/go-ethereum/p2p/discv5"
+	"github.com/NextExchange/go-ethereum/p2p/enode"
+	"github.com/NextExchange/go-ethereum/p2p/nat"
+	"github.com/NextExchange/go-ethereum/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -458,7 +458,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/Fantom-foundation/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/NextExchange/go-ethereum/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

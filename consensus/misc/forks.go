@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/NextExchange/go-ethereum/common"
+	"github.com/NextExchange/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

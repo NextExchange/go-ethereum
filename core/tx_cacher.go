@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/Fantom-foundation/go-ethereum/core/types"
+	"github.com/NextExchange/go-ethereum/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

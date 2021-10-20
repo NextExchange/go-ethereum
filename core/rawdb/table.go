@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
+	"github.com/NextExchange/go-ethereum/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

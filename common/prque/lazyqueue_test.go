@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common/mclock"
+	"github.com/NextExchange/go-ethereum/common/mclock"
 )
 
 const (

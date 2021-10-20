@@ -20,7 +20,7 @@ package testlog
 import (
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/NextExchange/go-ethereum/log"
 )
 
 // Logger returns a logger which logs to the unit test log of t.

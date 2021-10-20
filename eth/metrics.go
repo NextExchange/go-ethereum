@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/Fantom-foundation/go-ethereum/metrics"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
+	"github.com/NextExchange/go-ethereum/metrics"
+	"github.com/NextExchange/go-ethereum/p2p"
 )
 
 var (

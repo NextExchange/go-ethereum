@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/NextExchange/go-ethereum/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes
