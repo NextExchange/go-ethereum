@@ -5871,6 +5871,12 @@ Ftm.prototype.contract = function (abi) {
     return factory;
 };
 
+Ftm.prototype.sfcContract = function () {
+    // Get the SFC ABI and Address
+    var sfcData = this._requestManager.send({method: 'ftm_getSfcInterface'});
+    return (new Contract(this, JSON.parse(sfcData.abi))).at(sfcData.address);
+};
+
 Ftm.prototype.filter = function (options, callback, filterCreationErrorCallback) {
     return new Filter(options, 'ftm', this._requestManager, watches.ftm(), formatters.outputLogFormatter, callback, filterCreationErrorCallback);
 };
