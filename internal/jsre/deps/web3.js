@@ -5873,7 +5873,7 @@ Ftm.prototype.contract = function (abi) {
 
 Ftm.prototype.sfcContract = function () {
     // Get the SFC ABI and Address
-    var sfcData = this._requestManager.send({method: 'ftm_getSfcInterface'});
+    var sfcData = this._requestManager.send({method: 'next_getSfcInterface'});
     return (new Contract(this, JSON.parse(sfcData.abi))).at(sfcData.address);
 };
 
