@@ -2649,7 +2649,7 @@ var properties = function () {
             inputFormatter: utils.toDecimal
         }),
         new Property({
-            name: 'version.lachesis',
+            name: 'version.next',
             getter: 'eth_protocolVersion',
             inputFormatter: utils.toDecimal
         })

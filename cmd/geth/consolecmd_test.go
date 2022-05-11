@@ -67,7 +67,7 @@ func TestConsoleWelcome(t *testing.T) {
 
 	// Verify the actual welcome message to the required template
 	geth.Expect(`
-Welcome to the Lachesis JavaScript console!
+Welcome to the Next Smart Chain JavaScript console!
 
 instance: Geth/v{{gethver}}/{{goos}}-{{goarch}}/{{gover}}
 coinbase: {{.Etherbase}}
