@@ -24,7 +24,7 @@ var Modules = map[string]string{
 	"clique":     CliqueJs,
 	"ftmash":     FtmashJs,
 	"debug":      DebugJs,
-	"ftm":        FtmJs,
+	"next":       NextJs,
 	"miner":      MinerJs,
 	"net":        NetJs,
 	"personal":   PersonalJs,
@@ -487,9 +487,9 @@ web3._extend({
 });
 `
 
-const FtmJs = `
+const NextJs = `
 web3._extend({
-	property: 'ftm',
+	property: 'next',
 	methods: [
 		new web3._extend.Method({
 			name: 'chainId',
