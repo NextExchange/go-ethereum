@@ -232,10 +232,6 @@ var (
         MuirGlacierBlock:    big.NewInt(0),
         BerlinBlock:         big.NewInt(0),
         Ethash:              new(EthashConfig),
-        Parlia: &ParliaConfig{
-            Period: 3,
-            Epoch:  200,
-        },
     }
 
 	// YoloV3ChainConfig contains the chain parameters to run a node on the YOLOv3 test network.
