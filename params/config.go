@@ -217,6 +217,32 @@ var (
 		Threshold: 2,
 	}
 
+    // Next Smart Chain Parameters
+    NSCChainConfig = &ChainConfig{
+        ChainID:             big.NewInt(96),
+        HomesteadBlock:      big.NewInt(0),
+        EIP150Block:         big.NewInt(0),
+        EIP155Block:         big.NewInt(0),
+        EIP158Block:         big.NewInt(0),
+        ByzantiumBlock:      big.NewInt(0),
+        ConstantinopleBlock: big.NewInt(0),
+        PetersburgBlock:     big.NewInt(0),
+        IstanbulBlock:       big.NewInt(0),
+        MuirGlacierBlock:    big.NewInt(0),
+        RamanujanBlock:      big.NewInt(0),
+        NielsBlock:          big.NewInt(0),
+        MirrorSyncBlock:     big.NewInt(0),
+        BrunoBlock:          big.NewInt(0),
+
+        // TODO modify blockNumber
+        EulerBlock: nil,
+
+        Parlia: &ParliaConfig{
+            Period: 3,
+            Epoch:  200,
+        },
+    }
+
 	// YoloV3ChainConfig contains the chain parameters to run a node on the YOLOv3 test network.
 	YoloV3ChainConfig = &ChainConfig{
 		ChainID:             new(big.Int).SetBytes([]byte("yolov3x")),
