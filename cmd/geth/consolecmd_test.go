@@ -141,7 +141,7 @@ func testAttachWelcome(t *testing.T, geth *testgeth, endpoint, apis string) {
 
 	// Verify the actual welcome message to the required template
 	attach.Expect(`
-Welcome to the Lachesis JavaScript console!
+Welcome to the Next Smart Chain JavaScript console!
 
 instance: Geth/v{{gethver}}/{{goos}}-{{goarch}}/{{gover}}
 coinbase: {{etherbase}}

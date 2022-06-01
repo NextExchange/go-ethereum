@@ -22,7 +22,7 @@ var Modules = map[string]string{
 	"admin":      AdminJs,
 	"chequebook": ChequebookJs,
 	"clique":     CliqueJs,
-	"ftmash":     FtmashJs,
+	"ethash":     EthashJs,
 	"debug":      DebugJs,
 	"next":       NextJs,
 	"miner":      MinerJs,
@@ -118,9 +118,9 @@ web3._extend({
 });
 `
 
-const FtmashJs = `
+const EthashJs = `
 web3._extend({
-	property: 'ftmash',
+	property: 'ethash',
 	methods: [
 		new web3._extend.Method({
 			name: 'getWork',

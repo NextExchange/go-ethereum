@@ -33,6 +33,7 @@ var (
 	GoerliGenesisHash  = common.HexToHash("0xbf7e331f7f7c1dd2e05159666b3bf8bc7a8a3a9eb1d518969eab529dd9b88c1a")
 	YoloV3GenesisHash  = common.HexToHash("0xf1f2876e8500c77afcc03228757b39477eceffccf645b734967fe3c7e16967b7")
 	NSCGenesisHash     = common.HexToHash("0xf521d760dd9b3e7ac3b39d184d22408ee03731e3da325eab5e8b3dd10e0197e5")
+	NSCTestGenesisHash = common.HexToHash("0xf521d760dd9b3e7ac3b39d184d22408ee03731e3da325eab5e8b3dd10e0197e5")
 )
 
 // TrustedCheckpoints associates each known checkpoint with the genesis hash of
@@ -218,21 +219,41 @@ var (
 		Threshold: 2,
 	}
 
-    // Next Smart Chain Parameters
-    NSCChainConfig = &ChainConfig{
-        ChainID:             big.NewInt(96),
-        HomesteadBlock:      big.NewInt(0),
-        EIP150Block:         big.NewInt(0),
-        EIP155Block:         big.NewInt(0),
-        EIP158Block:         big.NewInt(0),
-        ByzantiumBlock:      big.NewInt(0),
-        ConstantinopleBlock: big.NewInt(0),
-        PetersburgBlock:     big.NewInt(0),
-        IstanbulBlock:       big.NewInt(0),
-        MuirGlacierBlock:    big.NewInt(0),
-        BerlinBlock:         big.NewInt(0),
-        Ethash:              new(EthashConfig),
-    }
+	// Next Smart Chain Parameters
+	NSCChainConfig = &ChainConfig{
+		ChainID:             big.NewInt(96),
+		HomesteadBlock:      big.NewInt(0),
+		DAOForkBlock:        nil,
+		DAOForkSupport:      true,
+		EIP150Block:         big.NewInt(0),
+		EIP155Block:         big.NewInt(0),
+		EIP158Block:         big.NewInt(0),
+		ByzantiumBlock:      big.NewInt(0),
+		ConstantinopleBlock: big.NewInt(0),
+		PetersburgBlock:     big.NewInt(0),
+		IstanbulBlock:       big.NewInt(0),
+		MuirGlacierBlock:    big.NewInt(0),
+		BerlinBlock:         big.NewInt(0),
+		Ethash:              new(EthashConfig),
+	}
+    
+	// Next Smart Chain Testnet Parameters
+	NSCTestChainConfig = &ChainConfig{
+		ChainID:             big.NewInt(98),
+		HomesteadBlock:      big.NewInt(0),
+		DAOForkBlock:        nil,
+		DAOForkSupport:      true,
+		EIP150Block:         big.NewInt(0),
+		EIP155Block:         big.NewInt(0),
+		EIP158Block:         big.NewInt(0),
+		ByzantiumBlock:      big.NewInt(0),
+		ConstantinopleBlock: big.NewInt(0),
+		PetersburgBlock:     big.NewInt(0),
+		IstanbulBlock:       big.NewInt(0),
+		MuirGlacierBlock:    big.NewInt(0),
+		BerlinBlock:         big.NewInt(0),
+		Ethash:              new(EthashConfig),
+	}
 
 	// YoloV3ChainConfig contains the chain parameters to run a node on the YOLOv3 test network.
 	YoloV3ChainConfig = &ChainConfig{

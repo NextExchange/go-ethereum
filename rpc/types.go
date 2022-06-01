@@ -87,9 +87,9 @@ func (bn *BlockNumber) UnmarshalJSON(data []byte) error {
 	}
 
 	// Fix MetaMask FeeHistory calls if only few blocks available
-    if strings.HasPrefix(input, "0x-") {
-    	input = "0x0"
-    }
+	if strings.HasPrefix(input, "0x-") {
+		input = "0x0"
+	}
 
 	blckNum, err := hexutil.DecodeUint64(input)
 
